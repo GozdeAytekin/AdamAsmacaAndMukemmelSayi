@@ -7,7 +7,8 @@ namespace MukemmelSayi
         static void Main(string[] args)
         {
             Console.WriteLine("Kontrol etmek istediginiz sayiyi girin");
-            
+            Console.WriteLine("seçimini yap");
+
             int sayi = Convert.ToInt32(Console.ReadLine());
             int toplam = 0;
             
